@@ -19,6 +19,5 @@ module MovieTreasure
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-    Tmdb::Api.key("c92ff2731541838029ac454769a4cdb1")
   end
 end
